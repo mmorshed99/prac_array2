@@ -1,3 +1,11 @@
+#Find out the maximum sub-array of non negative numbers from an array.
+#The sub-array should be continuous. That is, a sub-array created by choosing the second and fourth element and skipping the third element is invalid.
+#
+#Maximum sub-array is defined in terms of the sum of the elements in the sub-array. Sub-array A is greater than sub-array B if sum(A) > sum(B).
+#
+#NOTE: If there is a tie, then compare with segment's length and return segment which has maximum length
+#NOTE 2: If there is still a tie, then return the segment with minimum starting index
+#
 class Solution:
     # @param A : list of integers
     # @return a list of integers
